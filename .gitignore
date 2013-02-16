@@ -1,0 +1,12 @@
+*.log
+*.pot
+*.pyc
+.project
+.pydevproject
+.ropeproject
+*.swp
+local_settings.py
+static/cam
+cam
+importer/db/*
+cache
