@@ -5,7 +5,6 @@ import os
 page_size = 50
 app = Flask(__name__)
 image_path = '/Users/erik/projects/camview/static/cam/'
-#image_path = '/home/bergro/camview/static/cam/'
 
 
 def datetime_str(fname):
@@ -26,6 +25,7 @@ def datetime_str(fname):
 
 def date_str(datetime_str):
     return datetime_str[:10]
+
 
 @app.route('/')
 @app.route('/cam')
